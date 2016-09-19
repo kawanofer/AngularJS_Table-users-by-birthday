@@ -1,12 +1,9 @@
 # AngularJS_Table-users-by-birthday
-Tela de lista de usuários responsiva. Utilizando o JSON user.json para leitura dos dados.
-Utilizado os frameworks AngularJS, jQuery e Bootstrap.
+Responsive window, using data from user.json.
+Developed using AngularJS, jQuery e Bootstrap.
 
-A tela contem os seguintes itens:
-Campos da lista: ID, Nome, E-mail e Idade;
-
-Regras
-As linhas com usuários menores de 18 anos devem vir na cor Azul.
-As linhas com usuários maiores que 60 anos devem vir na cor Vermelha.
-Criar um Filtro para Menores de 18, Maiores de 18, Menores de 60, Maiores de 60 ou Todos.
-Se houver um aniversariante na data de hoje a linha deste usuário deve vir amarela.
+Rules
+Lines with user's age less than 18 years old, must be blue.
+Lines with users's age higher than 60 years old, must be red.
+Created a filter to user's age less than 18, higher than 18, less than 60 and higher than 60 and All users.
+If today have a birthday the user's line must be yellow. 
